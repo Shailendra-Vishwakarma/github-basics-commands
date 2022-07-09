@@ -1,0 +1,26 @@
+git --version
+git config --global user.name "shailendra"
+git config --global user.email "shailendracse1998@gmail.com"
+git config global --edit
+
+/* create a new folder */
+mkdir folder_name
+/* change directory using cd command */
+cd folder_name
+/*Initializing git */
+git init
+/*check git status */
+git status
+/*create a new simple text file or any other file like .html, .php, .py and others
+/*windows user use notepad */
+notepad test.txt
+/*Linux or Mac user use touch command to create new file */
+touch test.txt
+/* Again check staus */
+git status
+/* adding test.txt into staging area */
+git add test.txt
+/*commint your first file into git repo */
+git commit -m "meassge eg: "test.txt" addedd"
+
+
