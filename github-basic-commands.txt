@@ -22,5 +22,6 @@ git status
 git add test.txt
 /*commint your first file into git repo */
 git commit -m "meassge eg: "test.txt" addedd"
-
+/* empty commit*/
+git commit --allow-empty -m "Empty Commit To Trigger a Job"
 
